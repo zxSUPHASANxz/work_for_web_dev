@@ -1,0 +1,4402 @@
+[
+  {
+    "model": "quiz.question",
+    "pk": 1,
+    "fields": {
+      "text": "Django ใช้ภาษาอะไรในการพัฒนา?",
+      "published_date": "2025-01-02T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "text": "Java",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "text": "Ruby",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "text": "PHP",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 4,
+    "fields": {
+      "question": 1,
+      "text": "Python",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 2,
+    "fields": {
+      "text": "คำสั่งใดใช้ในการเริ่มโปรเจกต์ Django?",
+      "published_date": "2025-01-03T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 5,
+    "fields": {
+      "question": 2,
+      "text": "python create",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "text": "django-admin startproject",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 7,
+    "fields": {
+      "question": 2,
+      "text": "django new",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 8,
+    "fields": {
+      "question": 2,
+      "text": "npm init",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 3,
+    "fields": {
+      "text": "ไฟล์ใดใน Django ใช้เก็บ URL routing?",
+      "published_date": "2025-01-04T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 9,
+    "fields": {
+      "question": 3,
+      "text": "urls.py",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 10,
+    "fields": {
+      "question": 3,
+      "text": "routes.js",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 11,
+    "fields": {
+      "question": 3,
+      "text": "app.json",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 12,
+    "fields": {
+      "question": 3,
+      "text": "views.py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 4,
+    "fields": {
+      "text": "Model ใน Django สร้างจากคลาสใด?",
+      "published_date": "2025-01-05T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 13,
+    "fields": {
+      "question": 4,
+      "text": "admin.ModelAdmin",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 14,
+    "fields": {
+      "question": 4,
+      "text": "models.Model",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 15,
+    "fields": {
+      "question": 4,
+      "text": "forms.Form",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 16,
+    "fields": {
+      "question": 4,
+      "text": "views.View",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 5,
+    "fields": {
+      "text": "คำสั่งใดใช้ในการสร้าง migration ใน Django?",
+      "published_date": "2025-01-06T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 17,
+    "fields": {
+      "question": 5,
+      "text": "django syncdb",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 18,
+    "fields": {
+      "question": 5,
+      "text": "django migrate",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 19,
+    "fields": {
+      "question": 5,
+      "text": "python manage.py makemigrations",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 20,
+    "fields": {
+      "question": 5,
+      "text": "python manage.py migrate",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 6,
+    "fields": {
+      "text": "Alpine.js ใช้ attribute ใดในการกำหนด data?",
+      "published_date": "2025-01-07T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 21,
+    "fields": {
+      "question": 6,
+      "text": "v-data",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 22,
+    "fields": {
+      "question": 6,
+      "text": "x-data",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 23,
+    "fields": {
+      "question": 6,
+      "text": "a-data",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 24,
+    "fields": {
+      "question": 6,
+      "text": "alpine-data",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 7,
+    "fields": {
+      "text": "คำสั่งใดใช้สำหรับการคลิกใน Alpine.js?",
+      "published_date": "2025-01-08T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 25,
+    "fields": {
+      "question": 7,
+      "text": "al-click",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 26,
+    "fields": {
+      "question": 7,
+      "text": "x-click",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 27,
+    "fields": {
+      "question": 7,
+      "text": "x-on:click",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 28,
+    "fields": {
+      "question": 7,
+      "text": "@click.native",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 8,
+    "fields": {
+      "text": "Alpine.js เป็น JavaScript library ที่เน้นการใช้งานแบบใด?",
+      "published_date": "2025-01-09T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 29,
+    "fields": {
+      "question": 8,
+      "text": "Full-stack และ imperative",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 30,
+    "fields": {
+      "question": 8,
+      "text": "Data-centric",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 31,
+    "fields": {
+      "question": 8,
+      "text": "Lightweight และ declarative",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 32,
+    "fields": {
+      "question": 8,
+      "text": "Server-side",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 9,
+    "fields": {
+      "text": "คำสั่งใดใช้แสดง/ซ่อนองค์ประกอบใน Alpine.js?",
+      "published_date": "2025-01-10T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 33,
+    "fields": {
+      "question": 9,
+      "text": "x-visible",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 34,
+    "fields": {
+      "question": 9,
+      "text": "x-show",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 35,
+    "fields": {
+      "question": 9,
+      "text": "v-if",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 36,
+    "fields": {
+      "question": 9,
+      "text": "x-toggle",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 10,
+    "fields": {
+      "text": "x-model ใช้สำหรับอะไรใน Alpine.js?",
+      "published_date": "2025-01-11T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 37,
+    "fields": {
+      "question": 10,
+      "text": "สร้าง component",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 38,
+    "fields": {
+      "question": 10,
+      "text": "แสดง error",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 39,
+    "fields": {
+      "question": 10,
+      "text": "ผูกข้อมูลกับ input",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 40,
+    "fields": {
+      "question": 10,
+      "text": "สร้าง template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 11,
+    "fields": {
+      "text": "HTMX ใช้ attribute ใดสำหรับส่ง request แบบ GET?",
+      "published_date": "2025-01-12T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 41,
+    "fields": {
+      "question": 11,
+      "text": "hx-get",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 42,
+    "fields": {
+      "question": 11,
+      "text": "data-get",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 43,
+    "fields": {
+      "question": 11,
+      "text": "hx-request",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 44,
+    "fields": {
+      "question": 11,
+      "text": "htmx-fetch",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 12,
+    "fields": {
+      "text": "คำสั่งใดใช้สำหรับเปลี่ยนเนื้อหา HTML ด้วย HTMX?",
+      "published_date": "2025-01-13T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 45,
+    "fields": {
+      "question": 12,
+      "text": "hx-swap",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 46,
+    "fields": {
+      "question": 12,
+      "text": "data-swap",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 47,
+    "fields": {
+      "question": 12,
+      "text": "hx-html",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 48,
+    "fields": {
+      "question": 12,
+      "text": "swap-html",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 13,
+    "fields": {
+      "text": "HTMX สามารถทำงานร่วมกับ server ได้โดยไม่ต้องใช้?",
+      "published_date": "2025-01-14T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 49,
+    "fields": {
+      "question": 13,
+      "text": "Django",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 50,
+    "fields": {
+      "question": 13,
+      "text": "JavaScript",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 51,
+    "fields": {
+      "question": 13,
+      "text": "HTML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 52,
+    "fields": {
+      "question": 13,
+      "text": "CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 14,
+    "fields": {
+      "text": "HTMX ช่วยให้สามารถโหลดข้อมูลแบบใด?",
+      "published_date": "2025-01-15T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 53,
+    "fields": {
+      "question": 14,
+      "text": "โหลดแบบ dynamic โดยไม่ reload หน้า",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 54,
+    "fields": {
+      "question": 14,
+      "text": "โหลดแบบ async API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 55,
+    "fields": {
+      "question": 14,
+      "text": "โหลดเฉพาะ style",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 56,
+    "fields": {
+      "question": 14,
+      "text": "โหลดแบบ static",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 15,
+    "fields": {
+      "text": "HTMX นิยมใช้คู่กับอะไรในฝั่ง server?",
+      "published_date": "2025-01-16T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 57,
+    "fields": {
+      "question": 15,
+      "text": "Template rendering",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 58,
+    "fields": {
+      "question": 15,
+      "text": "GraphQL",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 59,
+    "fields": {
+      "question": 15,
+      "text": "REST API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 60,
+    "fields": {
+      "question": 15,
+      "text": "JSON only",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 16,
+    "fields": {
+      "text": "Tailwind CSS คืออะไร?",
+      "published_date": "2025-01-17T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 61,
+    "fields": {
+      "question": 16,
+      "text": "HTML preprocessor",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 62,
+    "fields": {
+      "question": 16,
+      "text": "Utility-first CSS framework",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 63,
+    "fields": {
+      "question": 16,
+      "text": "JavaScript framework",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 64,
+    "fields": {
+      "question": 16,
+      "text": "Component-based CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 17,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดเพื่อจัดข้อความให้อยู่ตรงกลาง?",
+      "published_date": "2025-01-18T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 65,
+    "fields": {
+      "question": 17,
+      "text": "text-center",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 66,
+    "fields": {
+      "question": 17,
+      "text": "center-text",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 67,
+    "fields": {
+      "question": 17,
+      "text": "text-middle",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 68,
+    "fields": {
+      "question": 17,
+      "text": "align-center",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 18,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดในการใส่เงาให้กล่อง?",
+      "published_date": "2025-01-19T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 69,
+    "fields": {
+      "question": 18,
+      "text": "shadow",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 70,
+    "fields": {
+      "question": 18,
+      "text": "box-shadow",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 71,
+    "fields": {
+      "question": 18,
+      "text": "drop-shadow",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 72,
+    "fields": {
+      "question": 18,
+      "text": "shadow-box",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 19,
+    "fields": {
+      "text": "Tailwind CSS สามารถปรับ responsive ได้อย่างไร?",
+      "published_date": "2025-01-20T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 73,
+    "fields": {
+      "question": 19,
+      "text": "ใช้ break-class",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 74,
+    "fields": {
+      "question": 19,
+      "text": "ใช้ media tag",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 75,
+    "fields": {
+      "question": 19,
+      "text": "ใช้ prefix เช่น md:, lg:",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 76,
+    "fields": {
+      "question": 19,
+      "text": "ใช้ res-class",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 20,
+    "fields": {
+      "text": "class ใดของ Tailwind ที่ใช้ซ่อนองค์ประกอบ?",
+      "published_date": "2025-01-21T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 77,
+    "fields": {
+      "question": 20,
+      "text": "no-show",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 78,
+    "fields": {
+      "question": 20,
+      "text": "display-none",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 79,
+    "fields": {
+      "question": 20,
+      "text": "invisible",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 80,
+    "fields": {
+      "question": 20,
+      "text": "hidden",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 21,
+    "fields": {
+      "text": "Django template ใช้ syntax ใดสำหรับการแสดงตัวแปร?",
+      "published_date": "2025-01-21T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 81,
+    "fields": {
+      "question": 21,
+      "text": "${variable}",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 82,
+    "fields": {
+      "question": 21,
+      "text": "{{ variable }}",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 83,
+    "fields": {
+      "question": 21,
+      "text": "[[ variable ]]",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 84,
+    "fields": {
+      "question": 21,
+      "text": "<%= variable %>",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 22,
+    "fields": {
+      "text": "คำสั่งใดใช้ในการสร้าง app ใหม่ใน Django?",
+      "published_date": "2025-01-22T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 85,
+    "fields": {
+      "question": 22,
+      "text": "startapp manage.py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 86,
+    "fields": {
+      "question": 22,
+      "text": "django-admin initapp",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 87,
+    "fields": {
+      "question": 22,
+      "text": "python manage.py startapp",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 88,
+    "fields": {
+      "question": 22,
+      "text": "python create app",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 23,
+    "fields": {
+      "text": "Django ORM คืออะไร?",
+      "published_date": "2025-01-23T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 89,
+    "fields": {
+      "question": 23,
+      "text": "Ordered Route Map",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 90,
+    "fields": {
+      "question": 23,
+      "text": "Object Rendering Mechanism",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 91,
+    "fields": {
+      "question": 23,
+      "text": "Operation Result Model",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 92,
+    "fields": {
+      "question": 23,
+      "text": "Object Relational Mapping",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 24,
+    "fields": {
+      "text": "คำสั่งใดใช้สำหรับเข้าสู่ shell ของ Django?",
+      "published_date": "2025-01-24T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 93,
+    "fields": {
+      "question": 24,
+      "text": "manage shell",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 94,
+    "fields": {
+      "question": 24,
+      "text": "python manage.py shell",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 95,
+    "fields": {
+      "question": 24,
+      "text": "django shell",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 96,
+    "fields": {
+      "question": 24,
+      "text": "python shell",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 25,
+    "fields": {
+      "text": "ไฟล์ settings.py ใช้สำหรับอะไร?",
+      "published_date": "2025-01-25T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 97,
+    "fields": {
+      "question": 25,
+      "text": "ตั้งค่าระบบและการทำงานของโปรเจกต์",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 98,
+    "fields": {
+      "question": 25,
+      "text": "เรียกใช้ views",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 99,
+    "fields": {
+      "question": 25,
+      "text": "แสดงผล template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 100,
+    "fields": {
+      "question": 25,
+      "text": "จัดการ routing",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 26,
+    "fields": {
+      "text": "Alpine.js สามารถทำงานแบบ reactive ได้เหมือนกับ?",
+      "published_date": "2025-01-26T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 101,
+    "fields": {
+      "question": 26,
+      "text": "jQuery",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 102,
+    "fields": {
+      "question": 26,
+      "text": "AngularJS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 103,
+    "fields": {
+      "question": 26,
+      "text": "Vue.js",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 104,
+    "fields": {
+      "question": 26,
+      "text": "React Native",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 27,
+    "fields": {
+      "text": "x-init ใช้สำหรับ?",
+      "published_date": "2025-01-27T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 105,
+    "fields": {
+      "question": 27,
+      "text": "ผูก event handler",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 106,
+    "fields": {
+      "question": 27,
+      "text": "โหลด CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 107,
+    "fields": {
+      "question": 27,
+      "text": "รันคำสั่งเมื่อ component ถูกโหลด",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 108,
+    "fields": {
+      "question": 27,
+      "text": "ซ่อน component",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 28,
+    "fields": {
+      "text": "Alpine.js ใช้ร่วมกับ Tailwind CSS ได้ดีเพราะ?",
+      "published_date": "2025-01-28T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 109,
+    "fields": {
+      "question": 28,
+      "text": "มีลักษณะ declarative เหมือนกัน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 110,
+    "fields": {
+      "question": 28,
+      "text": "เหมาะกับการทำ API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 111,
+    "fields": {
+      "question": 28,
+      "text": "ใช้ภาษาเดียวกัน",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 112,
+    "fields": {
+      "question": 28,
+      "text": "เขียน backend ได้",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 29,
+    "fields": {
+      "text": "Alpine.js สามารถกำหนดเงื่อนไขได้ด้วย attribute ใด?",
+      "published_date": "2025-01-29T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 113,
+    "fields": {
+      "question": 29,
+      "text": "x-case",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 114,
+    "fields": {
+      "question": 29,
+      "text": "x-condition",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 115,
+    "fields": {
+      "question": 29,
+      "text": "x-when",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 116,
+    "fields": {
+      "question": 29,
+      "text": "x-if",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 30,
+    "fields": {
+      "text": "การ bind attribute ใน Alpine.js ใช้ syntax ใด?",
+      "published_date": "2025-01-30T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 117,
+    "fields": {
+      "question": 30,
+      "text": ":attribute",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 118,
+    "fields": {
+      "question": 30,
+      "text": "@attribute",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 119,
+    "fields": {
+      "question": 30,
+      "text": "*attribute",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 120,
+    "fields": {
+      "question": 30,
+      "text": "#attribute",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 31,
+    "fields": {
+      "text": "HTMX ใช้ attribute ใดเพื่อโหลดเนื้อหาจาก server เมื่อ scroll?",
+      "published_date": "2025-01-31T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 121,
+    "fields": {
+      "question": 31,
+      "text": "hx-trigger='revealed'",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 122,
+    "fields": {
+      "question": 31,
+      "text": "hx-lazyload",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 123,
+    "fields": {
+      "question": 31,
+      "text": "hx-load",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 124,
+    "fields": {
+      "question": 31,
+      "text": "hx-scroll",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 32,
+    "fields": {
+      "text": "คำสั่ง hx-post ใช้สำหรับ?",
+      "published_date": "2025-02-01T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 125,
+    "fields": {
+      "question": 32,
+      "text": "ส่งข้อมูลแบบ POST ไปยัง server",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 126,
+    "fields": {
+      "question": 32,
+      "text": "โหลด script ภายนอก",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 127,
+    "fields": {
+      "question": 32,
+      "text": "โหลด CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 128,
+    "fields": {
+      "question": 32,
+      "text": "กำหนด layout",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 33,
+    "fields": {
+      "text": "HX-Request header ใช้สำหรับ?",
+      "published_date": "2025-02-02T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 129,
+    "fields": {
+      "question": 33,
+      "text": "ระบุว่าเป็นคำขอจาก HTMX",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 130,
+    "fields": {
+      "question": 33,
+      "text": "ระบุชนิด browser",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 131,
+    "fields": {
+      "question": 33,
+      "text": "เช็คสถานะ cookie",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 132,
+    "fields": {
+      "question": 33,
+      "text": "บอกค่า user-agent",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 34,
+    "fields": {
+      "text": "hx-target ใช้เพื่ออะไร?",
+      "published_date": "2025-02-03T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 133,
+    "fields": {
+      "question": 34,
+      "text": "ระบุ headers",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 134,
+    "fields": {
+      "question": 34,
+      "text": "กำหนด element ที่จะถูกลบ",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 135,
+    "fields": {
+      "question": 34,
+      "text": "ระบุ URL",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 136,
+    "fields": {
+      "question": 34,
+      "text": "กำหนด element ที่จะถูกแทนที่",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 35,
+    "fields": {
+      "text": "HTMX รองรับการส่งค่าผ่าน?",
+      "published_date": "2025-02-04T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 137,
+    "fields": {
+      "question": 35,
+      "text": "JavaScript object",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 138,
+    "fields": {
+      "question": 35,
+      "text": "Attribute บน HTML",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 139,
+    "fields": {
+      "question": 35,
+      "text": "Meta tag",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 140,
+    "fields": {
+      "question": 35,
+      "text": "Cookie",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 36,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดสำหรับจัดองค์ประกอบให้อยู่กลางแนวตั้ง?",
+      "published_date": "2025-02-05T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 141,
+    "fields": {
+      "question": 36,
+      "text": "center-vertical",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 142,
+    "fields": {
+      "question": 36,
+      "text": "align-center",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 143,
+    "fields": {
+      "question": 36,
+      "text": "flex-middle",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 144,
+    "fields": {
+      "question": 36,
+      "text": "items-center",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 37,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดสำหรับใส่ padding ด้านบน?",
+      "published_date": "2025-02-06T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 145,
+    "fields": {
+      "question": 37,
+      "text": "top-pad-*",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 146,
+    "fields": {
+      "question": 37,
+      "text": "pd-top-*",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 147,
+    "fields": {
+      "question": 37,
+      "text": "padding-top-*",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 148,
+    "fields": {
+      "question": 37,
+      "text": "pt-*",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 38,
+    "fields": {
+      "text": "Responsive class ของ Tailwind CSS เริ่มต้นด้วยอะไร?",
+      "published_date": "2025-02-07T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 149,
+    "fields": {
+      "question": 38,
+      "text": "rsp:",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 150,
+    "fields": {
+      "question": 38,
+      "text": "sm:",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 151,
+    "fields": {
+      "question": 38,
+      "text": "res:",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 152,
+    "fields": {
+      "question": 38,
+      "text": "rwd:",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 39,
+    "fields": {
+      "text": "Tailwind CSS ใช้เครื่องมืออะไรสำหรับ build CSS?",
+      "published_date": "2025-02-08T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 153,
+    "fields": {
+      "question": 39,
+      "text": "Sass",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 154,
+    "fields": {
+      "question": 39,
+      "text": "Babel",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 155,
+    "fields": {
+      "question": 39,
+      "text": "PostCSS",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 156,
+    "fields": {
+      "question": 39,
+      "text": "Webpack",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 40,
+    "fields": {
+      "text": "Tailwind CSS ช่วยให้เขียน CSS แบบใด?",
+      "published_date": "2025-02-09T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 157,
+    "fields": {
+      "question": 40,
+      "text": "Component-based",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 158,
+    "fields": {
+      "question": 40,
+      "text": "Global-first",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 159,
+    "fields": {
+      "question": 40,
+      "text": "Selector-heavy",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 160,
+    "fields": {
+      "question": 40,
+      "text": "Utility-first",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 41,
+    "fields": {
+      "text": "Django ใช้ไฟล์ใดสำหรับจัดการ static files?",
+      "published_date": "2025-02-10T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 161,
+    "fields": {
+      "question": 41,
+      "text": "settings.py",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 162,
+    "fields": {
+      "question": 41,
+      "text": "urls.py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 163,
+    "fields": {
+      "question": 41,
+      "text": "wsgi.py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 164,
+    "fields": {
+      "question": 41,
+      "text": "models.py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 42,
+    "fields": {
+      "text": "ใน Django คำว่า 'middleware' คืออะไร?",
+      "published_date": "2025-02-11T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 165,
+    "fields": {
+      "question": 42,
+      "text": "ตัวจัดการ routing",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 166,
+    "fields": {
+      "question": 42,
+      "text": "ระบบจัดการฐานข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 167,
+    "fields": {
+      "question": 42,
+      "text": "ชุดโค้ดที่ทำงานระหว่าง request และ response",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 168,
+    "fields": {
+      "question": 42,
+      "text": "template engine",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 43,
+    "fields": {
+      "text": "คำสั่ง migrate ใน Django ใช้ทำอะไร?",
+      "published_date": "2025-02-12T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 169,
+    "fields": {
+      "question": 43,
+      "text": "นำ migration ไปใช้กับฐานข้อมูล",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 170,
+    "fields": {
+      "question": 43,
+      "text": "สร้าง template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 171,
+    "fields": {
+      "question": 43,
+      "text": "ลบฐานข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 172,
+    "fields": {
+      "question": 43,
+      "text": "ทดสอบ server",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 44,
+    "fields": {
+      "text": "Django สามารถรันเว็บเซิร์ฟเวอร์ด้วยคำสั่งใด?",
+      "published_date": "2025-02-13T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 173,
+    "fields": {
+      "question": 44,
+      "text": "django start",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 174,
+    "fields": {
+      "question": 44,
+      "text": "manage run",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 175,
+    "fields": {
+      "question": 44,
+      "text": "python manage.py runserver",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 176,
+    "fields": {
+      "question": 44,
+      "text": "python runserver",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 45,
+    "fields": {
+      "text": "Django รองรับฐานข้อมูลแบบใดเป็นค่าดีฟอลต์?",
+      "published_date": "2025-02-14T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 177,
+    "fields": {
+      "question": 45,
+      "text": "PostgreSQL",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 178,
+    "fields": {
+      "question": 45,
+      "text": "SQLite",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 179,
+    "fields": {
+      "question": 45,
+      "text": "MySQL",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 180,
+    "fields": {
+      "question": 45,
+      "text": "Oracle",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 46,
+    "fields": {
+      "text": "Alpine.js ใช้ฟีเจอร์ reactive โดยใช้ object อะไร?",
+      "published_date": "2025-02-15T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 181,
+    "fields": {
+      "question": 46,
+      "text": "Array",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 182,
+    "fields": {
+      "question": 46,
+      "text": "Map",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 183,
+    "fields": {
+      "question": 46,
+      "text": "Proxy",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 184,
+    "fields": {
+      "question": 46,
+      "text": "Set",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 47,
+    "fields": {
+      "text": "x-for ใช้ทำอะไรใน Alpine.js?",
+      "published_date": "2025-02-16T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 185,
+    "fields": {
+      "question": 47,
+      "text": "รันฟังก์ชัน",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 186,
+    "fields": {
+      "question": 47,
+      "text": "วนลูปแสดงรายการ",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 187,
+    "fields": {
+      "question": 47,
+      "text": "แสดงเงื่อนไข",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 188,
+    "fields": {
+      "question": 47,
+      "text": "ผูกค่ากับ form",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 48,
+    "fields": {
+      "text": "x-ref ใช้ทำอะไร?",
+      "published_date": "2025-02-17T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 189,
+    "fields": {
+      "question": 48,
+      "text": "เปลี่ยน CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 190,
+    "fields": {
+      "question": 48,
+      "text": "เข้าถึง DOM จาก script",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 191,
+    "fields": {
+      "question": 48,
+      "text": "ผูกค่ากับ backend",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 192,
+    "fields": {
+      "question": 48,
+      "text": "ซ่อนข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 49,
+    "fields": {
+      "text": "Alpine.js ทำงานได้บน?",
+      "published_date": "2025-02-18T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 193,
+    "fields": {
+      "question": 49,
+      "text": "HTML element ใดๆ ที่รองรับ JavaScript",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 194,
+    "fields": {
+      "question": 49,
+      "text": "เฉพาะ <form>",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 195,
+    "fields": {
+      "question": 49,
+      "text": "เฉพาะ <span>",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 196,
+    "fields": {
+      "question": 49,
+      "text": "เฉพาะ <div>",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 50,
+    "fields": {
+      "text": "Alpine.js ถูกออกแบบให้ใช้งานเหมือนกับ?",
+      "published_date": "2025-02-19T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 197,
+    "fields": {
+      "question": 50,
+      "text": "Svelte + D3",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 198,
+    "fields": {
+      "question": 50,
+      "text": "Angular + Sass",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 199,
+    "fields": {
+      "question": 50,
+      "text": "jQuery + Vue",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 200,
+    "fields": {
+      "question": 50,
+      "text": "React + Bootstrap",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 51,
+    "fields": {
+      "text": "HTMX ใช้ร่วมกับ Django ได้โดย?",
+      "published_date": "2025-02-20T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 201,
+    "fields": {
+      "question": 51,
+      "text": "ใช้ WebSocket เท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 202,
+    "fields": {
+      "question": 51,
+      "text": "ใช้ JSON API เท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 203,
+    "fields": {
+      "question": 51,
+      "text": "ส่ง request ไปยัง view ที่คืน HTML fragment",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 204,
+    "fields": {
+      "question": 51,
+      "text": "ใช้ gRPC",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 52,
+    "fields": {
+      "text": "คำสั่ง hx-boost ใช้ทำอะไร?",
+      "published_date": "2025-02-21T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 205,
+    "fields": {
+      "question": 52,
+      "text": "เพิ่มความเร็ว CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 206,
+    "fields": {
+      "question": 52,
+      "text": "ย่อ HTML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 207,
+    "fields": {
+      "question": 52,
+      "text": "โหลดภาพล่วงหน้า",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 208,
+    "fields": {
+      "question": 52,
+      "text": "เปลี่ยนการคลิก link เป็น AJAX",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 53,
+    "fields": {
+      "text": "HTMX รองรับ method อะไร?",
+      "published_date": "2025-02-22T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 209,
+    "fields": {
+      "question": 53,
+      "text": "GET, POST เท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 210,
+    "fields": {
+      "question": 53,
+      "text": "GET, POST, PUT, DELETE",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 211,
+    "fields": {
+      "question": 53,
+      "text": "OPTIONS, PATCH",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 212,
+    "fields": {
+      "question": 53,
+      "text": "HEAD, TRACE",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 54,
+    "fields": {
+      "text": "HTMX รองรับ response type แบบใด?",
+      "published_date": "2025-02-23T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 213,
+    "fields": {
+      "question": 54,
+      "text": "HTML fragment",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 214,
+    "fields": {
+      "question": 54,
+      "text": "JSON",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 215,
+    "fields": {
+      "question": 54,
+      "text": "XML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 216,
+    "fields": {
+      "question": 54,
+      "text": "Script",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 55,
+    "fields": {
+      "text": "HTMX สามารถ trigger event ด้วย?",
+      "published_date": "2025-02-24T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 217,
+    "fields": {
+      "question": 55,
+      "text": "hx-trigger",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 218,
+    "fields": {
+      "question": 55,
+      "text": "hx-event",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 219,
+    "fields": {
+      "question": 55,
+      "text": "hx-on",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 220,
+    "fields": {
+      "question": 55,
+      "text": "htmx-event",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 56,
+    "fields": {
+      "text": "Tailwind CSS ช่วยลดปัญหาอะไร?",
+      "published_date": "2025-02-25T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 221,
+    "fields": {
+      "question": 56,
+      "text": "HTML tag หาย",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 222,
+    "fields": {
+      "question": 56,
+      "text": "JavaScript error",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 223,
+    "fields": {
+      "question": 56,
+      "text": "SQL injection",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 224,
+    "fields": {
+      "question": 56,
+      "text": "CSS class ซ้ำซ้อน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 57,
+    "fields": {
+      "text": "Tailwind CSS รองรับ dark mode หรือไม่?",
+      "published_date": "2025-02-26T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 225,
+    "fields": {
+      "question": 57,
+      "text": "รองรับผ่าน class และ media query",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 226,
+    "fields": {
+      "question": 57,
+      "text": "รองรับเฉพาะ HTML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 227,
+    "fields": {
+      "question": 57,
+      "text": "รองรับเฉพาะผ่าน JavaScript",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 228,
+    "fields": {
+      "question": 57,
+      "text": "ไม่รองรับเลย",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 58,
+    "fields": {
+      "text": "tailwind.config.js ใช้สำหรับ?",
+      "published_date": "2025-02-27T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 229,
+    "fields": {
+      "question": 58,
+      "text": "ปรับ routing",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 230,
+    "fields": {
+      "question": 58,
+      "text": "สร้าง API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 231,
+    "fields": {
+      "question": 58,
+      "text": "โหลด database",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 232,
+    "fields": {
+      "question": 58,
+      "text": "กำหนดค่าการตั้งค่า Tailwind",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 59,
+    "fields": {
+      "text": "Tailwind CSS สามารถใช้ร่วมกับ?",
+      "published_date": "2025-02-28T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 233,
+    "fields": {
+      "question": 59,
+      "text": "TensorFlow",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 234,
+    "fields": {
+      "question": 59,
+      "text": "Alpine.js",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 235,
+    "fields": {
+      "question": 59,
+      "text": "Numpy",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 236,
+    "fields": {
+      "question": 59,
+      "text": "Node-RED",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 60,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดสำหรับ flexbox?",
+      "published_date": "2025-03-01T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 237,
+    "fields": {
+      "question": 60,
+      "text": "d-flexbox",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 238,
+    "fields": {
+      "question": 60,
+      "text": "display-flex",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 239,
+    "fields": {
+      "question": 60,
+      "text": "box-flex",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 240,
+    "fields": {
+      "question": 60,
+      "text": "flex",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 61,
+    "fields": {
+      "text": "Django มีระบบ admin interface เพื่อ?",
+      "published_date": "2025-03-01T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 241,
+    "fields": {
+      "question": 61,
+      "text": "จัดการ CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 242,
+    "fields": {
+      "question": 61,
+      "text": "จัดการ static files",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 243,
+    "fields": {
+      "question": 61,
+      "text": "จัดการข้อมูลในฐานข้อมูลผ่านเว็บ",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 244,
+    "fields": {
+      "question": 61,
+      "text": "จัดการ routing",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 62,
+    "fields": {
+      "text": "view ใน Django ทำหน้าที่อะไร?",
+      "published_date": "2025-03-02T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 245,
+    "fields": {
+      "question": 62,
+      "text": "จัดการ static",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 246,
+    "fields": {
+      "question": 62,
+      "text": "เก็บข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 247,
+    "fields": {
+      "question": 62,
+      "text": "จัดการ logic และ response",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 248,
+    "fields": {
+      "question": 62,
+      "text": "สร้าง model",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 63,
+    "fields": {
+      "text": "template tag ของ Django เช่น {% if %} ถูกใช้ใน?",
+      "published_date": "2025-03-03T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 249,
+    "fields": {
+      "question": 63,
+      "text": "ไฟล์ .py",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 250,
+    "fields": {
+      "question": 63,
+      "text": "ไฟล์ .css",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 251,
+    "fields": {
+      "question": 63,
+      "text": "ไฟล์ .js",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 252,
+    "fields": {
+      "question": 63,
+      "text": "ไฟล์ .html",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 64,
+    "fields": {
+      "text": "ฟังก์ชัน render() ใน Django ใช้ทำอะไร?",
+      "published_date": "2025-03-04T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 253,
+    "fields": {
+      "question": 64,
+      "text": "รับ request",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 254,
+    "fields": {
+      "question": 64,
+      "text": "จัดการฐานข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 255,
+    "fields": {
+      "question": 64,
+      "text": "ส่ง response พร้อม template",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 256,
+    "fields": {
+      "question": 64,
+      "text": "รัน server",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 65,
+    "fields": {
+      "text": "Django view แบบ generic มีไว้เพื่อ?",
+      "published_date": "2025-03-05T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 257,
+    "fields": {
+      "question": 65,
+      "text": "โหลด static",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 258,
+    "fields": {
+      "question": 65,
+      "text": "ใช้กับ JavaScript เท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 259,
+    "fields": {
+      "question": 65,
+      "text": "ใช้สร้าง template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 260,
+    "fields": {
+      "question": 65,
+      "text": "ช่วยลดการเขียน view ซ้ำซ้อน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 66,
+    "fields": {
+      "text": "Alpine.js สามารถ bind ค่า form ได้ด้วย?",
+      "published_date": "2025-03-06T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 261,
+    "fields": {
+      "question": 66,
+      "text": "x-input",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 262,
+    "fields": {
+      "question": 66,
+      "text": "x-value",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 263,
+    "fields": {
+      "question": 66,
+      "text": "x-bind-value",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 264,
+    "fields": {
+      "question": 66,
+      "text": "x-model",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 67,
+    "fields": {
+      "text": "Alpine.js ช่วยเพิ่ม interactivity ได้โดยไม่ต้องใช้?",
+      "published_date": "2025-03-07T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 265,
+    "fields": {
+      "question": 67,
+      "text": "DOM",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 266,
+    "fields": {
+      "question": 67,
+      "text": "CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 267,
+    "fields": {
+      "question": 67,
+      "text": "JavaScript ที่เขียนเองมาก",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 268,
+    "fields": {
+      "question": 67,
+      "text": "HTML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 68,
+    "fields": {
+      "text": "Alpine.js นิยมใช้ในโปรเจกต์ประเภทใด?",
+      "published_date": "2025-03-08T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 269,
+    "fields": {
+      "question": 68,
+      "text": "Machine Learning",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 270,
+    "fields": {
+      "question": 68,
+      "text": "Streaming",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 271,
+    "fields": {
+      "question": 68,
+      "text": "WebAssembly",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 272,
+    "fields": {
+      "question": 68,
+      "text": "SPA ขนาดเล็กหรือ static site",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 69,
+    "fields": {
+      "text": "x-bind ใช้ทำอะไร?",
+      "published_date": "2025-03-09T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 273,
+    "fields": {
+      "question": 69,
+      "text": "รัน animation",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 274,
+    "fields": {
+      "question": 69,
+      "text": "เพิ่ม routing",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 275,
+    "fields": {
+      "question": 69,
+      "text": "bind attribute กับ data",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 276,
+    "fields": {
+      "question": 69,
+      "text": "เปลี่ยนสี",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 70,
+    "fields": {
+      "text": "Alpine.js มีขนาดไฟล์?",
+      "published_date": "2025-03-10T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 277,
+    "fields": {
+      "question": 70,
+      "text": "เล็กมาก (~10KB)",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 278,
+    "fields": {
+      "question": 70,
+      "text": "ไม่สามารถโหลดผ่าน CDN",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 279,
+    "fields": {
+      "question": 70,
+      "text": "ใหญ่กว่า React",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 280,
+    "fields": {
+      "question": 70,
+      "text": "ประมาณ 100KB",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 71,
+    "fields": {
+      "text": "HTMX ทำงานกับ HTTP headers ได้ไหม?",
+      "published_date": "2025-03-11T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 281,
+    "fields": {
+      "question": 71,
+      "text": "ได้แต่ต้องใช้ JavaScript",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 282,
+    "fields": {
+      "question": 71,
+      "text": "ได้ สามารถตั้งและอ่าน headers ได้",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 283,
+    "fields": {
+      "question": 71,
+      "text": "ไม่ได้เลย",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 284,
+    "fields": {
+      "question": 71,
+      "text": "เฉพาะ POST",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 72,
+    "fields": {
+      "text": "HTMX มี attribute ใดสำหรับกำหนด URL ของ form?",
+      "published_date": "2025-03-12T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 285,
+    "fields": {
+      "question": 72,
+      "text": "hx-send",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 286,
+    "fields": {
+      "question": 72,
+      "text": "hx-url",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 287,
+    "fields": {
+      "question": 72,
+      "text": "hx-post",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 288,
+    "fields": {
+      "question": 72,
+      "text": "hx-form",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 73,
+    "fields": {
+      "text": "HTMX ทำให้สามารถเขียนเว็บแบบ?",
+      "published_date": "2025-03-13T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 289,
+    "fields": {
+      "question": 73,
+      "text": "Headless only",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 290,
+    "fields": {
+      "question": 73,
+      "text": "Static only",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 291,
+    "fields": {
+      "question": 73,
+      "text": "Server-driven UI",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 292,
+    "fields": {
+      "question": 73,
+      "text": "Fully client-only",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 74,
+    "fields": {
+      "text": "HTMX รองรับ response ที่มี status code?",
+      "published_date": "2025-03-14T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 293,
+    "fields": {
+      "question": 74,
+      "text": "เฉพาะ 404 และ 500",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 294,
+    "fields": {
+      "question": 74,
+      "text": "ทุกชนิด รวมถึง 200, 204, 400, 500",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 295,
+    "fields": {
+      "question": 74,
+      "text": "เฉพาะ redirect",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 296,
+    "fields": {
+      "question": 74,
+      "text": "เฉพาะ 200 เท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 75,
+    "fields": {
+      "text": "HX-Trigger header ใช้เพื่อ?",
+      "published_date": "2025-03-15T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 297,
+    "fields": {
+      "question": 75,
+      "text": "ระบุ HTML layout",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 298,
+    "fields": {
+      "question": 75,
+      "text": "บอก server ว่าเกิด event อะไร",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 299,
+    "fields": {
+      "question": 75,
+      "text": "โหลด CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 300,
+    "fields": {
+      "question": 75,
+      "text": "เก็บ cookie",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 76,
+    "fields": {
+      "text": "Tailwind CSS class ใดใช้กำหนดขนาดตัวอักษร?",
+      "published_date": "2025-03-16T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 301,
+    "fields": {
+      "question": 76,
+      "text": "text-sm, text-lg",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 302,
+    "fields": {
+      "question": 76,
+      "text": "font-12px",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 303,
+    "fields": {
+      "question": 76,
+      "text": "txt-large",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 304,
+    "fields": {
+      "question": 76,
+      "text": "size-md",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 77,
+    "fields": {
+      "text": "Tailwind CSS สามารถกำหนด theme สีเองได้ผ่าน?",
+      "published_date": "2025-03-17T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 305,
+    "fields": {
+      "question": 77,
+      "text": "theme.html",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 306,
+    "fields": {
+      "question": 77,
+      "text": "colors.json",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 307,
+    "fields": {
+      "question": 77,
+      "text": "tailwind.config.js",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 308,
+    "fields": {
+      "question": 77,
+      "text": "style.css",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 78,
+    "fields": {
+      "text": "class 'grid-cols-3' หมายถึง?",
+      "published_date": "2025-03-18T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 309,
+    "fields": {
+      "question": 78,
+      "text": "มี margin 3px",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 310,
+    "fields": {
+      "question": 78,
+      "text": "มี 3 คอลัมน์ใน grid",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 311,
+    "fields": {
+      "question": 78,
+      "text": "แสดง 3 object",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 312,
+    "fields": {
+      "question": 78,
+      "text": "มี 3 row",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 79,
+    "fields": {
+      "text": "Tailwind CSS ทำให้ CSS อ่านง่ายขึ้นด้วย?",
+      "published_date": "2025-03-19T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 313,
+    "fields": {
+      "question": 79,
+      "text": "global rules",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 314,
+    "fields": {
+      "question": 79,
+      "text": "mixins",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 315,
+    "fields": {
+      "question": 79,
+      "text": "inline CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 316,
+    "fields": {
+      "question": 79,
+      "text": "utility class ที่สื่อความหมายชัดเจน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 80,
+    "fields": {
+      "text": "Tailwind CSS สามารถขยายด้วย?",
+      "published_date": "2025-03-20T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 317,
+    "fields": {
+      "question": 80,
+      "text": "plugin",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 318,
+    "fields": {
+      "question": 80,
+      "text": "component API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 319,
+    "fields": {
+      "question": 80,
+      "text": "HTML directives",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 320,
+    "fields": {
+      "question": 80,
+      "text": "data attributes",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 81,
+    "fields": {
+      "text": "ใน Django 'request.user' ใช้เพื่อ?",
+      "published_date": "2025-03-21T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 321,
+    "fields": {
+      "question": 81,
+      "text": "เข้าถึงข้อมูลผู้ใช้ที่ล็อกอิน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 322,
+    "fields": {
+      "question": 81,
+      "text": "สร้าง user ใหม่",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 323,
+    "fields": {
+      "question": 81,
+      "text": "เก็บ cookies",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 324,
+    "fields": {
+      "question": 81,
+      "text": "เปลี่ยนรหัสผ่าน",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 82,
+    "fields": {
+      "text": "Django ใช้ 'reverse()' เพื่อ?",
+      "published_date": "2025-03-22T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 325,
+    "fields": {
+      "question": 82,
+      "text": "เรียกใช้งานฐานข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 326,
+    "fields": {
+      "question": 82,
+      "text": "สร้าง URL จากชื่อ view",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 327,
+    "fields": {
+      "question": 82,
+      "text": "โหลด static file",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 328,
+    "fields": {
+      "question": 82,
+      "text": "แสดง template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 83,
+    "fields": {
+      "text": "ใน Django, 'get_object_or_404' ใช้เพื่อ?",
+      "published_date": "2025-03-23T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 329,
+    "fields": {
+      "question": 83,
+      "text": "ย้ายข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 330,
+    "fields": {
+      "question": 83,
+      "text": "ดึงข้อมูลหรือแสดง 404 ถ้าไม่พบ",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 331,
+    "fields": {
+      "question": 83,
+      "text": "ทำ redirect",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 332,
+    "fields": {
+      "question": 83,
+      "text": "ลบข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 84,
+    "fields": {
+      "text": "ไฟล์ 'manage.py' มีไว้เพื่อ?",
+      "published_date": "2025-03-24T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 333,
+    "fields": {
+      "question": 84,
+      "text": "คอมไพล์ไฟล์ HTML",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 334,
+    "fields": {
+      "question": 84,
+      "text": "ควบคุมคำสั่งของโปรเจกต์ Django",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 335,
+    "fields": {
+      "question": 84,
+      "text": "รัน frontend",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 336,
+    "fields": {
+      "question": 84,
+      "text": "เรียก API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 85,
+    "fields": {
+      "text": "Django view แบบ class-based ใช้สำหรับ?",
+      "published_date": "2025-03-25T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 337,
+    "fields": {
+      "question": 85,
+      "text": "จัดการ view อย่างมีโครงสร้าง",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 338,
+    "fields": {
+      "question": 85,
+      "text": "ทำ static file",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 339,
+    "fields": {
+      "question": 85,
+      "text": "ใช้กับ JavaScript",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 340,
+    "fields": {
+      "question": 85,
+      "text": "สร้าง HTML template",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 86,
+    "fields": {
+      "text": "x-cloak ใช้ทำอะไรใน Alpine.js?",
+      "published_date": "2025-03-26T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 341,
+    "fields": {
+      "question": 86,
+      "text": "โหลด CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 342,
+    "fields": {
+      "question": 86,
+      "text": "ซ่อน element จน Alpine พร้อม",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 343,
+    "fields": {
+      "question": 86,
+      "text": "ทำ layout",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 344,
+    "fields": {
+      "question": 86,
+      "text": "ล้าง cache",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 87,
+    "fields": {
+      "text": "x-effect ใช้เพื่อ?",
+      "published_date": "2025-03-27T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 345,
+    "fields": {
+      "question": 87,
+      "text": "รันเมื่อ reload",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 346,
+    "fields": {
+      "question": 87,
+      "text": "เชื่อมต่อ socket",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 347,
+    "fields": {
+      "question": 87,
+      "text": "ใช้กับ API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 348,
+    "fields": {
+      "question": 87,
+      "text": "รันโค้ดเมื่อค่าภายในเปลี่ยน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 88,
+    "fields": {
+      "text": "การอัปเดต DOM ใน Alpine.js เกิดขึ้นเมื่อ?",
+      "published_date": "2025-03-28T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 349,
+    "fields": {
+      "question": 88,
+      "text": "ล้างข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 350,
+    "fields": {
+      "question": 88,
+      "text": "คลิกเท่านั้น",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 351,
+    "fields": {
+      "question": 88,
+      "text": "โหลดหน้าใหม่",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 352,
+    "fields": {
+      "question": 88,
+      "text": "ค่าที่ reactive เปลี่ยน",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 89,
+    "fields": {
+      "text": "Alpine.js ใช้ร่วมกับ framework อื่นได้หรือไม่?",
+      "published_date": "2025-03-29T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 353,
+    "fields": {
+      "question": 89,
+      "text": "ไม่ได้เลย",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 354,
+    "fields": {
+      "question": 89,
+      "text": "ได้ ใช้เป็น progressive enhancement",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 355,
+    "fields": {
+      "question": 89,
+      "text": "ได้เฉพาะกับ Laravel",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 356,
+    "fields": {
+      "question": 89,
+      "text": "ได้เฉพาะกับ Angular",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 90,
+    "fields": {
+      "text": "x-transition ใช้เพื่อ?",
+      "published_date": "2025-03-30T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 357,
+    "fields": {
+      "question": 90,
+      "text": "เพิ่มเอฟเฟกต์ transition",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 358,
+    "fields": {
+      "question": 90,
+      "text": "เชื่อม route",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 359,
+    "fields": {
+      "question": 90,
+      "text": "ซ่อน error",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 360,
+    "fields": {
+      "question": 90,
+      "text": "โหลดข้อมูล",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 91,
+    "fields": {
+      "text": "คำสั่ง 'hx-include' ใช้สำหรับ?",
+      "published_date": "2025-03-31T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 361,
+    "fields": {
+      "question": 91,
+      "text": "รวมไฟล์ JavaScript",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 362,
+    "fields": {
+      "question": 91,
+      "text": "เพิ่ม CSS",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 363,
+    "fields": {
+      "question": 91,
+      "text": "ส่งข้อมูลจากหลาย form หรือ element",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 364,
+    "fields": {
+      "question": 91,
+      "text": "โหลดรูปภาพ",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 92,
+    "fields": {
+      "text": "HTMX มีความสามารถพิเศษคือ?",
+      "published_date": "2025-04-01T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 365,
+    "fields": {
+      "question": 92,
+      "text": "ประมวลผล backend",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 366,
+    "fields": {
+      "question": 92,
+      "text": "จัดการ cookie",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 367,
+    "fields": {
+      "question": 92,
+      "text": "วาดกราฟ",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 368,
+    "fields": {
+      "question": 92,
+      "text": "เปลี่ยน HTML บางส่วนแบบ dynamic",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 93,
+    "fields": {
+      "text": "hx-vals ใช้ทำอะไร?",
+      "published_date": "2025-04-02T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 369,
+    "fields": {
+      "question": 93,
+      "text": "รวม view",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 370,
+    "fields": {
+      "question": 93,
+      "text": "โหลด font",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 371,
+    "fields": {
+      "question": 93,
+      "text": "รับ response",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 372,
+    "fields": {
+      "question": 93,
+      "text": "ส่งค่าเพิ่มเติมไปพร้อม request",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 94,
+    "fields": {
+      "text": "HTMX รองรับการทำ polling หรือไม่?",
+      "published_date": "2025-04-03T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 373,
+    "fields": {
+      "question": 94,
+      "text": "ไม่รองรับเลย",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 374,
+    "fields": {
+      "question": 94,
+      "text": "เฉพาะ JSON API",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 375,
+    "fields": {
+      "question": 94,
+      "text": "รองรับเฉพาะ WebSocket",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 376,
+    "fields": {
+      "question": 94,
+      "text": "รองรับ ผ่าน hx-trigger='every ...'",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 95,
+    "fields": {
+      "text": "HTMX trigger แบบ custom ใช้ attribute อะไร?",
+      "published_date": "2025-04-04T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 377,
+    "fields": {
+      "question": 95,
+      "text": "hx-action",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 378,
+    "fields": {
+      "question": 95,
+      "text": "hx-trigger",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 379,
+    "fields": {
+      "question": 95,
+      "text": "trigger-hx",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 380,
+    "fields": {
+      "question": 95,
+      "text": "hx-custom",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 96,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดสำหรับ border radius?",
+      "published_date": "2025-04-05T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 381,
+    "fields": {
+      "question": 96,
+      "text": "rounded",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 382,
+    "fields": {
+      "question": 96,
+      "text": "rounded-corner",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 383,
+    "fields": {
+      "question": 96,
+      "text": "border-curve",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 384,
+    "fields": {
+      "question": 96,
+      "text": "radius-box",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 97,
+    "fields": {
+      "text": "class 'bg-red-500' หมายถึง?",
+      "published_date": "2025-04-06T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 385,
+    "fields": {
+      "question": 97,
+      "text": "ขนาดกล่องแดง",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 386,
+    "fields": {
+      "question": 97,
+      "text": "เส้นขอบแดง",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 387,
+    "fields": {
+      "question": 97,
+      "text": "พื้นหลังสีแดงระดับ 500",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 388,
+    "fields": {
+      "question": 97,
+      "text": "ตัวอักษรสีแดง",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 98,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class ใดสำหรับจัด row แบบ grid?",
+      "published_date": "2025-04-07T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 389,
+    "fields": {
+      "question": 98,
+      "text": "grid",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 390,
+    "fields": {
+      "question": 98,
+      "text": "row-grid",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 391,
+    "fields": {
+      "question": 98,
+      "text": "box-grid",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 392,
+    "fields": {
+      "question": 98,
+      "text": "flex-row",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 99,
+    "fields": {
+      "text": "class 'hover:' ใน Tailwind CSS หมายถึง?",
+      "published_date": "2025-04-08T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 393,
+    "fields": {
+      "question": 99,
+      "text": "ใช้ style เมื่อเมาส์ชี้",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 394,
+    "fields": {
+      "question": 99,
+      "text": "โหลด animation",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 395,
+    "fields": {
+      "question": 99,
+      "text": "เพิ่ม margin",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 396,
+    "fields": {
+      "question": 99,
+      "text": "เปลี่ยน layout",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 100,
+    "fields": {
+      "text": "Tailwind CSS ใช้ class 'w-full' เพื่อ?",
+      "published_date": "2025-04-09T00:00:00"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 397,
+    "fields": {
+      "question": 100,
+      "text": "ให้ element กว้างเต็ม container",
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 398,
+    "fields": {
+      "question": 100,
+      "text": "ซ่อน element",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 399,
+    "fields": {
+      "question": 100,
+      "text": "จัด text ตรงกลาง",
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 400,
+    "fields": {
+      "question": 100,
+      "text": "ปรับขนาดฟอนต์",
+      "correct": false
+    }
+  }
+]
