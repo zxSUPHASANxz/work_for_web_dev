@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Logged Out{% endblock %}
+{% block content %}
+<div class="max-w-md mx-auto bg-white rounded-xl shadow p-6 mt-10 text-center">
+  <h2 class="text-2xl font-bold mb-4 text-green-700">ออกจากระบบเรียบร้อยแล้ว</h2>
+  <p class="mb-6 text-gray-600">ขอบคุณที่ใช้บริการ</p>
+  <a href="/accounts/login/" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">เข้าสู่ระบบอีกครั้ง</a>
+  <a href="/" class="ml-4 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition">กลับหน้าแรก</a>
+</div>
+{% endblock %}

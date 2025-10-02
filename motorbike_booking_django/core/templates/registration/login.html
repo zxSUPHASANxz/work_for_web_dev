@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="bg-white rounded-xl shadow p-6 max-w-md mx-auto">
+  <h2 class="font-semibold text-xl mb-4">เข้าสู่ระบบ</h2>
+  <form method="post" class="space-y-3">
+    {% csrf_token %} {{ form.as_p }}
+    <button class="px-4 py-2 bg-black text-white rounded-lg">Login</button>
+  </form>
+  <p class="text-sm mt-3">ยังไม่มีบัญชี? <a class="text-blue-700" href="{% url 'register' %}">สมัครสมาชิก</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}My Bookings{% endblock %}
+{% block content %}
+<div class="bg-white rounded-xl shadow p-6">
+  <div class="flex justify-between items-center mb-3">
+    <h2 class="text-xl font-semibold">My Bookings</h2>
+    <a href="{% url 'booking_add' %}" class="px-3 py-1 bg-blue-600 text-white rounded-lg text-sm">+ Create</a>
+  </div>
+  <table class="w-full border text-sm">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border px-2 py-1">ID</th>
+        <th class="border px-2 py-1">Bike</th>
+        <th class="border px-2 py-1">Service</th>
+        <th class="border px-2 py-1">Date</th>
+        <th class="border px-2 py-1">Time</th>
+        <th class="border px-2 py-1">Status</th>
+        <th class="border px-2 py-1">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for bk in bookings %}
+        <tr>
+          <td class="border px-2 py-1">{{ bk.id }}</td>
+          <td class="border px-2 py-1">{{ bk.bike.brand }} {{ bk.bike.model }}</td>
+          <td class="border px-2 py-1">{{ bk.service_type }}</td>
+          <td class="border px-2 py-1">{{ bk.booking_date }}</td>
+          <td class="border px-2 py-1">{{ bk.booking_time }}</td>
+          <td class="border px-2 py-1">{{ bk.get_status_display }}</td>
+          <td class="border px-2 py-1">
+            <a href="{% url 'booking_edit' bk.id %}" class="text-blue-600">Edit</a> |
+            <a href="{% url 'booking_delete' bk.id %}" class="text-red-600">Delete</a>
+          </td>
+        </tr>
+      {% empty %}
+        <tr><td colspan="7" class="text-center text-gray-500 py-2">No bookings yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
