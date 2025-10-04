@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="bg-white rounded-xl shadow p-6 max-w-md mx-auto">
+  <h2 class="font-semibold text-xl mb-4">เข้าสู่ระบบ</h2>
+  <form method="post" class="space-y-3">
+    {% csrf_token %} {{ form.as_p }}
+    <button class="px-4 py-2 bg-black text-white rounded-lg">Login</button>
+  </form>
+  <div class="flex flex-col md:flex-row md:items-center md:justify-between mt-3 gap-2">
+    <span class="text-sm">ยังไม่มีบัญชี? <a class="text-blue-700" href="{% url 'register' %}">สมัครสมาชิก</a></span>
+  <a href="{% url 'login_mechanic' %}" class="px-3 py-1 bg-indigo-700 text-white rounded-lg text-sm font-semibold hover:bg-indigo-800 transition">เข้าสู่ระบบช่างซ่อม</a>
+  </div>
+</div>
+{% endblock %}

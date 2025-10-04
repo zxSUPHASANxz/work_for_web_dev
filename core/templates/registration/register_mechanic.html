@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}Register Mechanic{% endblock %}
+{% block content %}
+<div class="flex items-center justify-center min-h-[80vh] bg-gray-50">
+  <div class="bg-white rounded-2xl shadow-xl p-8 w-full max-w-lg border border-indigo-300 animate-card">
+    <h2 class="font-bold text-2xl mb-6 text-center text-indigo-800 tracking-wide flex items-center gap-2">🛠️ สมัครเป็นช่างซ่อม</h2>
+    <form method="post" class="space-y-5">
+      {% csrf_token %}
+      <div class="space-y-2">
+        {{ form.username.label_tag }}
+        {{ form.username }}
+        {% if form.username.errors %}
+          <div class="text-red-500 text-xs">{{ form.username.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.email.label_tag }}
+        {{ form.email }}
+        {% if form.email.errors %}
+          <div class="text-red-500 text-xs">{{ form.email.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.password1.label_tag }}
+        {{ form.password1 }}
+        {% if form.password1.errors %}
+          <div class="text-red-500 text-xs">{{ form.password1.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.password2.label_tag }}
+        {{ form.password2 }}
+        {% if form.password2.errors %}
+          <div class="text-red-500 text-xs">{{ form.password2.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.phone.label_tag }}
+        {{ form.phone }}
+        {% if form.phone.errors %}
+          <div class="text-red-500 text-xs">{{ form.phone.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.experience.label_tag }}
+        {{ form.experience }}
+        {% if form.experience.errors %}
+          <div class="text-red-500 text-xs">{{ form.experience.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.shop_name.label_tag }}
+        {{ form.shop_name }}
+        {% if form.shop_name.errors %}
+          <div class="text-red-500 text-xs">{{ form.shop_name.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <div class="space-y-2">
+        {{ form.shop_address.label_tag }}
+        {{ form.shop_address }}
+        {% if form.shop_address.errors %}
+          <div class="text-red-500 text-xs">{{ form.shop_address.errors|striptags }}</div>
+        {% endif %}
+      </div>
+      <button class="w-full py-2 mt-4 bg-indigo-700 text-white rounded-lg font-semibold text-lg shadow hover:bg-indigo-800 transition">สมัครเป็นช่างซ่อม</button>
+    </form>
+    <div class="mt-6 text-center text-gray-500 text-sm">
+      มีบัญชีอยู่แล้ว? <a href="{% url 'login_mechanic' %}" class="text-indigo-700 hover:underline">เข้าสู่ระบบช่างซ่อม</a>
+    </div>
+  </div>
+</div>
+<style>
+  @keyframes card {
+    from { opacity: 0; transform: translateY(30px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .animate-card { animation: card 0.7s cubic-bezier(.4,0,.2,1) both; }
+</style>
+{% endblock %}
